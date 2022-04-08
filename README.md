@@ -35,10 +35,15 @@ Description:
 
 Vulnerability #1: Username Enumeration
 
-Description: Using the existing usename "jmonroe99" I simply tried logging in with the username and a random password. The Blue and Green website gave me an Invalid Request because the username does not exist in the database. However, the Red website gave me an incorrect password response hinting the fact that the username exists. This vulnerability is caused due to the website given the intruder too much log in information.
+Description: Using the existing usename "jmonroe99" I simply tried logging in with the username and a random password. The Blue and Green website gave me an Invalid Request because the username does not exist in the database. However, the Red website gave me an incorrect password response hinting the fact that the username exists. This vulnerability is caused due to the website giving the intruder too much log in information.
 
 <img src="red-vuln1.gif">
 
+Vulnerability #2: Insecure Direct Object Reference
+
+Description: The "Find a Salesperson" tab contains different people with unique ID numbers when clicked on them. Changing the id number will direct you to different salespeople. Normally if you were to enter a number that doesn't belong to anyone or someone that is not supposed to be there it would redirect you as seen in the GIF below. However, in the red website if you go one over the maximim ID you will run into a classified salesperson.
+
+<img src="red-vuln2.gif">
 
 ## Notes
 N/A
