@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: 5 hours spent in total
+Time spent: 3 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -46,4 +46,4 @@ Description: The "Find a Salesperson" tab contains different people with unique 
 <img src="red-vuln2.gif">
 
 ## Notes
-N/A
+Unable to find vulnerabilities for Blue and Green targets. Didn't have as much time as I wanted.
